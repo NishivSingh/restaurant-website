@@ -52,7 +52,7 @@ const Menu = () => {
             </Link>
           )}
 
-          <CartIcon onClick={() => setOpen(false)} />
+          <CartIcon />
         </div>
       )}
     </div>
