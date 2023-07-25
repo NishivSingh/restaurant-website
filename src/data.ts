@@ -343,11 +343,11 @@ export const singleProduct: Product = {
     },
     {
       title: "Medium",
-      additionalPrice: 4,
+      additionalPrice: 90,
     },
     {
       title: "Large",
-      additionalPrice: 6,
+      additionalPrice: 160,
     },
   ],
 };
