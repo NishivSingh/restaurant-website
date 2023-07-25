@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 flex-1">
         <Link href="/">Homepage</Link>
         <Link href="/menu">Menu</Link>
-        <Link href="/">Contact</Link>
+        <Link href="/contact">Contact</Link>
       </div>
 
       {/* Logo  */}
@@ -33,7 +33,11 @@ const Navbar = () => {
           </div>
           <span>123-4777-254</span>
         </div>
-        {!user ? <Link href="/">Login</Link> : <Link href="/menu">Orders</Link>}
+        {!user ? (
+          <Link href="/login">Login</Link>
+        ) : (
+          <Link href="/menu">Orders</Link>
+        )}
         <CartIcon />
       </div>
     </div>
